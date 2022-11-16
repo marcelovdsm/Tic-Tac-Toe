@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto';
+    background-color: rgb(39, 39, 39);
+    color: rgb(224, 224, 224);
+}
+
+h1{
+    margin-bottom: 70px;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.players{
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+.players label{
+    margin-bottom: 5px;
+}
+
+.player1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.player2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameBtn{
+    margin: 10px;
+    padding: 50px;
+}
